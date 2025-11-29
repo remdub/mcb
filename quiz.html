@@ -8,7 +8,39 @@
 </head>
 <body>
 
-<canvas id="quizCanvas" width="900" height="650"></canvas>
-<script id="quiz-script" src="script.js" data-json="quizData.json" defer></script>
+    <div id="quiz-container">
+        <!-- Start Screen -->
+        <div id="start-screen">
+            <h1 id="quiz-title"></h1>
+            <p id="intro-line1"></p>
+            <p id="intro-line2"></p>
+            <button id="start-button">COMMENCER</button>
+        </div>
+
+        <!-- Question Screen -->
+        <div id="question-screen" class="hidden">
+            <div id="progress-bar"></div>
+            <div id="status-bar">
+                <span id="question-counter"></span>
+                <span id="score-display"></span>
+            </div>
+            <h2 id="question-text"></h2>
+            <div id="answer-options"></div>
+            <div id="feedback-section">
+                <p id="feedback-text"></p>
+                <button id="next-button">SUIVANT</button>
+            </div>
+        </div>
+
+        <!-- End Screen -->
+        <div id="end-screen" class="hidden">
+            <h1>Quiz Terminé !</h1>
+            <p>Votre score : <span id="final-score"></span> / <span id="total-questions"></span></p>
+            <p id="end-message"></p>
+            <button id="replay-button">REJOUER</button>
+        </div>
+    </div>
+
+    <script id="quiz-script" src="script.js" data-json="quizData.json" defer></script>
 </body>
 </html>
