@@ -1,0 +1,117 @@
+{
+  "title": "QCM de Compréhension - UAA 1 : Hardware et Périphériques",
+  "quiz": {
+    "questions": [
+        {
+            "question": "Si l'on compare un ordinateur au corps humain, quel composant jouerait le rôle du cerveau en traitant les informations et les calculs ?",
+            "options": [
+                "Le disque dur",
+                "La carte mère",
+                "Le processeur (CPU)",
+                "L'alimentation"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Tu viens de taper un texte mais une coupure de courant survient avant que tu n'aies pu sauvegarder. Pourquoi as-tu perdu ton travail ?",
+            "options": [
+                "Parce que le disque dur est trop lent.",
+                "Parce que la mémoire vive (RAM) se vide sans électricité.",
+                "Parce que le processeur a surchauffé.",
+                "Parce que la carte mère a grillé."
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Comment expliquerais-tu la différence principale entre le 'Hardware' et le 'Software' ?",
+            "options": [
+                "Le Hardware est ce que l'on peut toucher (physique), le Software, ce sont les programmes (immatériel).",
+                "Le Hardware, ce sont les programmes, le Software, c'est le matériel physique.",
+                "Le Hardware est ce qui est à l'intérieur de la tour, le Software ce qui est à l'extérieur.",
+                "Il n'y a aucune différence, ce sont deux synonymes."
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Tu dois classer une imprimante multifonction qui permet d'imprimer mais aussi de scanner des documents. Dans quelle catégorie la places-tu ?",
+            "options": [
+                "Périphérique d'entrée uniquement",
+                "Périphérique de sortie uniquement",
+                "Périphérique d'entrée et de sortie",
+                "Périphérique de stockage"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le rôle principal de la carte mère au sein de l'unité centrale ?",
+            "options": [
+                "Elle sert à stocker toutes tes photos et vidéos.",
+                "Elle sert uniquement à alimenter l'ordinateur en électricité.",
+                "Elle sert à relier et faire communiquer tous les composants entre eux.",
+                "Elle sert à refroidir le processeur."
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Pourquoi privilégie-t-on souvent un SSD par rapport à un disque dur classique (HDD) pour installer Windows ?",
+            "options": [
+                "Parce que le SSD est beaucoup plus lourd et stable.",
+                "Parce que le SSD est plus rapide grâce à sa technologie électronique sans pièces mobiles.",
+                "Parce que le SSD a toujours une plus grande capacité de stockage.",
+                "Parce que le SSD est le seul compatible avec les écrans modernes."
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Tu observes l'arrière d'une tour. À quoi sert la connectique vidéo (comme le HDMI ou le DisplayPort) ?",
+            "options": [
+                "À brancher le câble réseau pour Internet.",
+                "À envoyer l'image traitée par l'ordinateur vers l'écran.",
+                "À relier l'imprimante à l'ordinateur.",
+                "À brancher le clavier et la souris."
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Si tu installes une carte graphique très puissante sans changer ton bloc d'alimentation basique, que risque-t-il de se passer ?",
+            "options": [
+                "L'ordinateur deviendra deux fois plus rapide.",
+                "L'écran affichera les couleurs en noir et blanc.",
+                "Le système risque d'être instable ou de s'éteindre par manque de puissance électrique.",
+                "La connexion Internet sera coupée."
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est l'utilité de la pâte thermique placée entre le processeur et le système de refroidissement ?",
+            "options": [
+                "Elle sert de colle forte pour que le ventilateur ne tombe pas.",
+                "Elle sert à améliorer le transfert de chaleur du processeur vers le radiateur.",
+                "Elle sert à isoler le processeur de l'électricité.",
+                "Elle sert à décorer l'intérieur du PC."
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Tu veux connecter une souris, un clavier et une clé USB. Quel type de port (connecteur) vas-tu majoritairement utiliser ?",
+            "options": [
+                "Le port Jack",
+                "Le port VGA",
+                "Le port USB",
+                "Le port RJ45"
+            ],
+            "correct": 2
+        }
+    ],
+    "results": {
+        "excellent": "Excellent travail ! Tu as très bien compris le rôle et le fonctionnement des composants.",
+        "good": "Très bien ! Tu as compris l'essentiel, revois juste quelques petites distinctions.",
+        "average": "Pas mal. Tu connais les noms, mais assure-toi de bien comprendre 'à quoi ça sert' exactement.",
+        "bad": "Attention, il semble y avoir des confusions entre les composants. Relis bien ton cours sur le Hardware."
+    },
+    "intro": {
+        "line1": "Ce questionnaire vérifie ta compréhension des composants de l'ordinateur (UAA 1).",
+        "line2": "Lis bien les questions pour identifier la fonction de chaque élément."
+    }
+  }
+}
