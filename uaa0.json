@@ -1,0 +1,117 @@
+{
+  "title": "QCM UAA 0 : Les bases du numérique (Niveau Connaissance)",
+  "quiz": {
+    "questions": [
+        {
+            "question": "1. Dans une recherche Internet, à quoi servent les guillemets \" \" ?",
+            "options": [
+                "À rechercher une expression exacte",
+                "À exclure un mot de la recherche",
+                "À rechercher des synonymes",
+                "À traduire le texte automatiquement"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "2. Parmi les extensions suivantes, laquelle correspond à un fichier image ?",
+            "options": [
+                ".docx",
+                ".exe",
+                ".jpg",
+                ".mp3"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "3. Qu'est-ce qu'un système d'exploitation ?",
+            "options": [
+                "Un site web pour télécharger des jeux",
+                "Le logiciel principal qui gère l'ordinateur (ex: Windows)",
+                "Un câble pour relier l'écran",
+                "Un moteur de recherche"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "4. Que signifie le « Droit à l'image » ?",
+            "options": [
+                "Le droit de télécharger n'importe quelle image",
+                "Le droit de modifier ses propres photos",
+                "Le droit de refuser la diffusion de son image",
+                "Le droit d'avoir une image de profil"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "5. Dans un navigateur, à quoi sert l'historique ?",
+            "options": [
+                "À enregistrer tes mots de passe",
+                "À retrouver la liste des sites visités précédemment",
+                "À effacer les virus",
+                "À envoyer des e-mails"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "6. Si tu utilises l'opérateur « - » (moins) dans une recherche (ex: Jaguar -voiture), que se passe-t-il ?",
+            "options": [
+                "Le moteur de recherche exclut le mot qui suit",
+                "Le moteur de recherche additionne les résultats",
+                "Le moteur de recherche trouve des images uniquement",
+                "Le moteur de recherche efface ton historique"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "7. Qu'est-ce qu'une extension de fichier (ex: .pdf, .txt) ?",
+            "options": [
+                "La taille du fichier en octets",
+                "Le nom de l'auteur du fichier",
+                "Un code indiquant le type de fichier et le logiciel pour l'ouvrir",
+                "La date de création du fichier"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "8. Quelle est la définition d'un navigateur Web ?",
+            "options": [
+                "C'est un logiciel permettant de consulter des pages Internet",
+                "C'est un matériel pour se connecter au Wifi",
+                "C'est un synonyme de disque dur",
+                "C'est un programme pour dessiner"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "9. Pourquoi est-il important de fermer ta session sur un ordinateur public ?",
+            "options": [
+                "Pour économiser de l'électricité uniquement",
+                "Pour empêcher d'autres personnes d'accéder à tes données personnelles",
+                "Pour que l'ordinateur soit plus rapide pour le suivant",
+                "C'est inutile si tu as effacé l'historique"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "10. Qu'est-ce qu'une URL ?",
+            "options": [
+                "Une marque d'ordinateur",
+                "Un type de virus informatique",
+                "L'adresse unique d'une page Web",
+                "Un mot de passe complexe"
+            ],
+            "correct": 2
+        }
+    ],
+    "results": {
+        "excellent": "Excellent ! Tu maîtrises parfaitement le vocabulaire de base de l'UAA 0.",
+        "good": "Très bien ! Tu as de bonnes connaissances, revois juste les petites erreurs.",
+        "average": "Pas mal, mais assure-toi de bien relire les définitions des termes techniques.",
+        "bad": "Il faut revoir la matière. Relis bien ton cours sur les environnements numériques."
+    },
+    "intro": {
+        "line1": "Ce questionnaire comporte 10 questions sur les savoirs de base de l'UAA 0 (Numérique).",
+        "line2": "Lis bien chaque question et clique sur la bonne réponse."
+    }
+  }
+}
