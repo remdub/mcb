@@ -1,0 +1,117 @@
+{
+  "title": "Quiz UAA3",
+  "quiz": {
+    "questions": [
+        {
+            "question": "1. Tu veux insérer une image 'logo.png' située dans un sous-dossier 'images'. Quel est le code correct ?",
+            "options": [
+                "<img src=\"logo.png\" alt=\"Logo\">",
+                "<img src=\"images/logo.png\" alt=\"Logo\">",
+                "<img src=\"../images/logo.png\" alt=\"Logo\">",
+                "<img href=\"images/logo.png\" title=\"Logo\">"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "2. En CSS, à quelle couleur correspond le code hexadécimal #FF0000 (RGB) ?",
+            "options": [
+                "Bleu",
+                "Blanc",
+                "Rouge",
+                "Noir"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "3. Que signifient les deux points '..' dans un lien relatif (ex: ../contact.html) ?",
+            "options": [
+                "Chercher dans le même dossier",
+                "Chercher dans un sous-dossier",
+                "Aller sur un autre site web",
+                "Remonter d'un niveau (dossier parent)"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "4. Ton site affiche des caractères étranges comme 'Ã©'. Quelle est la cause probable ?",
+            "options": [
+                "Problème d'encodage (ex: UTF-8)",
+                "Balise <body> non fermée",
+                "Mauvaise police CSS",
+                "Images trop lourdes"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "5. Quelle est la différence sémantique entre les balises <ul> et <ol> ?",
+            "options": [
+                "<ul> = souligné, <ol> = gras",
+                "<ul> = non-ordonnée (puces), <ol> = ordonnée (chiffres)",
+                "Aucune, c'est juste esthétique",
+                "<ol> pour les menus, <ul> pour le texte"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "6. Quelle règle CSS permet de centrer le texte d'un titre h1 ?",
+            "options": [
+                "<h1 align='center'>",
+                "h1 { align: middle; }",
+                "h1 { text-align: center; }",
+                "#h1 { margin: center; }"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "7. Quel format d'image est le plus adapté pour gérer la transparence (canal alpha) ?",
+            "options": [
+                "JPG",
+                "BMP",
+                "PNG",
+                "GIF (animé)"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "8. Le sélecteur CSS '.menu' cible quels éléments HTML ?",
+            "options": [
+                "Les éléments avec l'ID id='menu'",
+                "La balise <menu>",
+                "Les éléments avec la classe class='menu'",
+                "Tous les liens du menu"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "9. Quelle est la fonction principale de la balise <head> ?",
+            "options": [
+                "Contenir le contenu visible (texte, images)",
+                "Contenir les métadonnées (titre, liens CSS...)",
+                "Créer l'en-tête visible du site",
+                "Définir le pied de page"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "10. Quel code permet de lier une feuille de style externe 'style.css' ?",
+            "options": [
+                "<link rel='stylesheet' href='style.css'>",
+                "<style src='style.css'>",
+                "<a href='style.css'>Style</a>",
+                "<css file='style.css'>"
+            ],
+            "correct": 0
+        }
+    ],
+    "results": {
+        "excellent": "Excellent ! Tu maîtrises parfaitement le sujet.",
+        "good": "Très bien ! Encore quelques détails à revoir.",
+        "average": "Pas mal, mais relis tes notes sur le CSS.",
+        "bad": "Il faut revoir la matière de l'UAA 3."
+    },
+    "intro": {
+        "line1": "Ce questionnaire comporte 10 questions sur le HTML et le CSS.",
+        "line2": "Clique sur la bonne réponse pour avancer."
+    }
+  }
+}
