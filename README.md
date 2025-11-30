@@ -4,6 +4,9 @@
 
 As a teacher, I want to create mutiple-choice questionnaire for my students. With this repository, I just have to add a json file containing the questions, and it's automatically built and uploaded to GitHub Pages. This way, I can give the link to my students and they can try it.
 
+[The questionnaires are available by clicking here.](https://remdub.github.io/mcb/)
+
+
 ## How does it work
 
 To create a new questionnaire, add a JSON file in the `questionnaires` directory. When pushed to the GitHub repository, it's built and uploaded to GitHub Pages thanks to GitHub Actions.
