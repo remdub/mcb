@@ -32,7 +32,7 @@ def main():
         html_template = f.read()
 
     # Find all JSON files in the current directory
-    json_files = list(Path(".").glob("*.json"))
+    json_files = list(Path("questionnaires").glob("*.json"))
 
     if not json_files:
         print("No JSON files found. Nothing to build.")
