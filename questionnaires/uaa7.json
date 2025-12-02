@@ -1,0 +1,47 @@
+{
+  "title": "UAA 7 - Vocabulaire des bases de données (Niveau 1 : Connaissance)",
+  "quiz": {
+    "questions": [
+        {
+            "question": "Dans une base de données, comment appelle-t-on une ligne d'une table qui contient toutes les informations sur un élément précis (par exemple, un seul élève) ?",
+            "options": [
+                "Un enregistrement",
+                "Un champ",
+                "Une requête",
+                "Une clé étrangère"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle principal d'une clé primaire dans une table ?",
+            "options": [
+                "Identifier de manière unique chaque enregistrement de la table",
+                "Stocker le mot de passe pour sécuriser la base de données",
+                "Calculer la somme des données numériques",
+                "Trier les données par ordre alphabétique uniquement"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Quel terme désigne une interrogation envoyée à la base de données pour extraire ou manipuler des informations ?",
+            "options": [
+                "Une cardinalité",
+                "Une table",
+                "Une requête",
+                "Un type de donnée"
+            ],
+            "correct": 2
+        }
+    ],
+    "results": {
+        "excellent": "Excellent ! Tu maîtrises parfaitement le vocabulaire de base de l'UAA 7.",
+        "good": "Très bien ! Tes définitions sont solides.",
+        "average": "Pas mal, mais assure-toi de bien distinguer les termes (ex: champ vs enregistrement).",
+        "bad": "Il est nécessaire de revoir les définitions des concepts de base (table, clé, requête)."
+    },
+    "intro": {
+        "line1": "Ce test rapide vérifie ta connaissance des termes techniques de l'UAA 7.",
+        "line2": "Lis bien chaque définition avant de choisir la bonne réponse."
+    }
+  }
+}
