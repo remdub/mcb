@@ -1,0 +1,517 @@
+{
+  "title": "UAA 15 : Réseau (6e TT) - Synthèse complète (50 questions)",
+  "quiz": {
+    "questions": [
+      {
+        "question": "1. Combien de couches composent le modèle de référence OSI (Open Systems Interconnection) ?",
+        "options": [
+          "5 couches",
+          "7 couches",
+          "4 couches",
+          "8 couches"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "2. Comment appelle-t-on l'unité de données de protocole (PDU) manipulée au niveau de la couche 2 (Liaison de données) ?",
+        "options": [
+          "Le datagramme",
+          "La trame (frame)",
+          "Le paquet (packet)",
+          "Le segment"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "3. À quelle couche du modèle OSI se situe principalement un commutateur (switch) réseau standard ?",
+        "options": [
+          "Couche 1 (Physique)",
+          "Couche 2 (Liaison de données)",
+          "Couche 3 (Réseau)",
+          "Couche 4 (Transport)"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "4. Quel équipement matériel interconnecte différents réseaux logiques et opère au niveau de la couche 3 (Réseau) de l'OSI ?",
+        "options": [
+          "Le routeur",
+          "Le concentrateur (hub)",
+          "Le commutateur de niveau 2 (switch)",
+          "Le pont réseau simple"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "5. Dans le modèle TCP/IP, quelle couche prend en charge les fonctionnalités des couches Application, Présentation et Session de l'OSI ?",
+        "options": [
+          "La couche Application",
+          "La couche Transport",
+          "La couche Internet",
+          "La couche Accès réseau"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "6. Comment nomme-t-on le mécanisme où chaque couche ajoute ses propres informations de contrôle (en-tête) aux données émises ?",
+        "options": [
+          "Le décodage",
+          "La segmentation",
+          "La translation d'adresse",
+          "L'encapsulation"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "7. Quelle couche du modèle OSI a pour rôle de contrôler le flux, de fiabiliser la transmission de bout en bout et de gérer les numéros de ports logiques ?",
+        "options": [
+          "La couche Liaison (couche 2)",
+          "La couche Session (couche 5)",
+          "La couche Transport (couche 4)",
+          "La couche Réseau (couche 3)"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "8. Quelle est la différence fondamentale entre les protocoles de transport TCP et UDP ?",
+        "options": [
+          "TCP est orienté connexion et garantit la remise des données, tandis qu'UDP est plus rapide mais sans garantie de livraison",
+          "TCP est réservé aux réseaux locaux (LAN), alors qu'UDP ne peut être utilisé que sur Internet (WAN)",
+          "TCP fonctionne sans accusé de réception, alors qu'UDP recompte systématiquement tous les paquets",
+          "UDP effectue automatiquement un chiffrement fort, alors que TCP transmet toujours les données en clair"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "9. À quelle couche du modèle OSI associes-tu les câbles à paires torsadées RJ45, la fibre optique et les signaux électriques ?",
+        "options": [
+          "Couche 3 (Réseau)",
+          "Couche 7 (Application)",
+          "Couche 1 (Physique)",
+          "Couche 2 (Liaison de données)"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "10. Tu constates qu'une commande ping vers un serveur web répond parfaitement, mais impossible d'afficher sa page dans ton navigateur. À quel niveau de la pile réseau se situe très probablement le problème ?",
+        "options": [
+          "Couche Physique (le câble Ethernet est sectionné)",
+          "Couche Application (le serveur web est arrêté ou le port 80/443 est bloqué)",
+          "Couche Liaison (l'adresse MAC de ton PC est bloquée)",
+          "Couche Réseau (l'adresse IP du serveur est inaccessible)"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "11. Sur combien de bits une adresse IPv4 standard est-elle encodée ?",
+        "options": [
+          "48 bits (6 octets)",
+          "128 bits (16 octets)",
+          "32 bits (4 octets)",
+          "64 bits (8 octets)"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "12. Laquelle des adresses IP suivantes appartient à une plage privée (définie par la RFC 1918) utilisable dans un réseau local ?",
+        "options": [
+          "208.67.222.222",
+          "192.168.1.45",
+          "172.33.10.1",
+          "8.8.4.4"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "13. Quelle est l'adresse de bouclage local (loopback) utilisée pour tester le bon fonctionnement de la pile TCP/IP sur ta propre machine ?",
+        "options": [
+          "127.0.0.1",
+          "255.255.255.255",
+          "192.168.0.1",
+          "0.0.0.0"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "14. Tu disposes d'un sous-réseau noté en notation CIDR /24. Quelle est sa correspondance en notation décimale pointée ?",
+        "options": [
+          "255.255.255.0",
+          "255.255.0.0",
+          "255.0.0.0",
+          "255.255.255.128"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "15. Dans le réseau 192.168.10.0/24, quelle est l'adresse de diffusion générale (broadcast) réservée ?",
+        "options": [
+          "192.168.10.1",
+          "192.168.10.0",
+          "192.168.10.254",
+          "192.168.10.255"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "16. Combien d'adresses d'hôtes utilisables (pour des ordinateurs ou imprimantes) offre un réseau configuré avec un masque /24 ?",
+        "options": [
+          "255 adresses",
+          "256 adresses",
+          "128 adresses",
+          "254 adresses"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "17. Pourquoi ne peux-tu pas attribuer l'adresse 192.168.5.0 avec le masque 255.255.255.0 à la carte réseau d'une station de travail ?",
+        "options": [
+          "Car elle identifie le réseau lui-même et ne peut être attribuée à un hôte",
+          "Car c'est une adresse de diffusion (broadcast) générale",
+          "Car c'est une adresse réservée obligatoirement au serveur DNS mondial",
+          "Car le dernier octet doit impérativement être supérieur à 10"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "18. Deux PC, A (192.168.1.10/24) et B (192.168.2.10/24), sont reliés au même switch sans routeur. Peuvent-ils communiquer directement ?",
+        "options": [
+          "Non, sauf si on leur attribue la même adresse MAC",
+          "Non, car ils appartiennent à deux sous-réseaux logiques différents",
+          "Oui, car ils partagent le même numéro d'hôte (.10)",
+          "Oui, car ils sont physiquement branchés sur le même commutateur"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "19. Ton poste Windows reçoit soudainement une adresse IP en 169.254.42.18. Que t'indique cette adresse APIPA ?",
+        "options": [
+          "La connexion à Internet fonctionne avec le débit maximal disponible",
+          "L'adresse IP publique a été renouvelée avec succès",
+          "Le client n'a reçu aucune réponse d'un serveur DHCP et s'est configuré automatiquement",
+          "Le commutateur a bloqué la machine suite à une attaque par déni de service"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "20. Tu analyses le sous-réseau 10.0.0.0/25. Quel est son masque de sous-réseau en décimal pointé ?",
+        "options": [
+          "255.255.255.128",
+          "255.255.0.0",
+          "255.255.255.0",
+          "255.255.255.192"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "21. Quel est le rôle précis de la passerelle par défaut (default gateway) paramétrée sur ton poste client ?",
+        "options": [
+          "Distribuer dynamiquement les configurations IP à toutes les machines du réseau",
+          "Convertir les adresses IP en noms de domaine mémorisables",
+          "Augmenter la bande passante maximale de ta carte réseau",
+          "Transmettre les paquets destinés à des adresses situées hors du sous-réseau local"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "22. Parmi ces quatre plages, laquelle NE fait PAS partie des adresses IPv4 privées de la RFC 1918 ?",
+        "options": [
+          "172.16.0.0 à 172.31.255.255 (Classe B privée)",
+          "198.51.100.0 à 198.51.100.255 (plage TEST-NET)",
+          "192.168.0.0 à 192.168.255.255 (Classe C privée)",
+          "10.0.0.0 à 10.255.255.255 (Classe A privée)"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "23. Combien de bits composent une adresse physique MAC (Media Access Control) ?",
+        "options": [
+          "128 bits (soit 16 octets)",
+          "64 bits (soit 8 octets)",
+          "48 bits (soit 6 octets, souvent représentés en hexadécimal)",
+          "32 bits (soit 4 octets)"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "24. Quelle différence majeure sépare le fonctionnement d'un commutateur (switch) de celui d'un ancien concentrateur (hub) ?",
+        "options": [
+          "Le hub analyse les paquets IP pour router le trafic alors que le switch ne fait que répéter les signaux électriques",
+          "Le hub permet de connecter de la fibre optique alors que le switch est limité au câble coaxial",
+          "Le switch attribue les adresses IP de manière dynamique tandis que le hub gère les noms DNS",
+          "Le switch lit l'adresse MAC de destination et n'envoie la trame que sur le port concerné, réduisant les collisions"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "25. Comment appelle-t-on la table interne dans laquelle un switch enregistre la correspondance entre ports physiques et adresses MAC ?",
+        "options": [
+          "La table d'allocation DHCP",
+          "La table de résolution DNS",
+          "La table de routage IP",
+          "La table de commutation (ou table CAM / table MAC)"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "26. Dans une topologie physique en étoile autour d'un switch, que se produit-il lorsqu'un câble relié à un seul PC est débranché ?",
+        "options": [
+          "L'ensemble du réseau local tombe instantanément en panne",
+          "Tous les autres ordinateurs voient leur adresse IP modifiée",
+          "Seul ce PC perd sa connectivité réseau, le reste du parc continue de fonctionner normalement",
+          "Le réseau passe immédiatement en topologie en anneau de secours"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "27. Que permet de réaliser la technologie VLAN (Virtual Local Area Network) au sein d'un établissement scolaire ?",
+        "options": [
+          "Partager une imprimante sans installer de pilote",
+          "Augmenter physiquement la vitesse de calcul du processeur des PC clients",
+          "Segmenter logiquement le réseau sur un même commutateur pour isoler des groupes d'utilisateurs (ex: profs, élèves)",
+          "Remplacer les câbles RJ45 par des liaisons laser sans fil"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "28. Quelle caractéristique distingue une architecture réseau pair-à-pair (Peer-to-Peer) d'une architecture client/serveur ?",
+        "options": [
+          "Un serveur dédié doit impérativement valider chaque requête avant transmission",
+          "Chaque poste de travail peut jouer à la fois le rôle de client et de serveur sans autorité centrale obligatoire",
+          "Les ordinateurs ne peuvent échanger des données que s'ils sont du même constructeur",
+          "La communication s'effectue exclusivement au moyen de modems analogiques"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "29. Quel type de connecteur normalisé à 8 broches est utilisé pour raccorder un câble réseau Ethernet à paires torsadées ?",
+        "options": [
+          "BNC",
+          "RJ45",
+          "USB Type-C",
+          "RJ11"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "30. Pour équiper un laboratoire d'informatique de 24 postes, quelle topologie physique offre le meilleur compromis entre robustesse, coût et facilité de maintenance ?",
+        "options": [
+          "La topologie en anneau à passage de jeton (Token Ring)",
+          "La topologie maillée totale avec 23 câbles par poste",
+          "La topologie en bus avec terminaisons 50 ohms",
+          "La topologie en étoile avec un commutateur central"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "31. Que signifie l'acronyme du protocole réseau DHCP ?",
+        "options": [
+          "Direct Hardware Communication Protocol",
+          "Domain Host Central Provider",
+          "Data Handling and Control Process",
+          "Dynamic Host Configuration Protocol"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "32. Quelle est la mission fondamentale d'un serveur DNS (Domain Name System) ?",
+        "options": [
+          "Distribuer automatiquement la passerelle et le masque aux postes de travail",
+          "Sécuriser la transmission des mots de passe par empreinte cryptographique",
+          "Traduire des noms d'hôtes conviviaux (ex: www.ecole.be) en adresses IP exploitables par les machines",
+          "Gérer l'affectation dynamique des adresses MAC sur la carte réseau"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "33. Quelles sont, dans l'ordre chronologique, les 4 étapes de négociation d'une configuration IP via DHCP (processus DORA) ?",
+        "options": [
+          "Demand, Order, Reply, Accept",
+          "Detect, Open, Route, Allocate",
+          "Discover, Offer, Request, Acknowledge",
+          "Disconnect, Obtain, Reset, Apply"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "34. Quel protocole réseau permet à une machine de découvrir l'adresse MAC associée à une adresse IP connue sur le réseau local ?",
+        "options": [
+          "NAT (Network Address Translation)",
+          "RARP (Reverse ARP)",
+          "ICMP (Internet Control Message Protocol)",
+          "ARP (Address Resolution Protocol)"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "35. Sur quel numéro de port TCP standard fonctionne le protocole web non chiffré HTTP ?",
+        "options": [
+          "Port 53",
+          "Port 80",
+          "Port 21",
+          "Port 443"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "36. Pourquoi privilégie-t-on le protocole HTTPS (port 443) au protocole HTTP (port 80) pour consulter un site web ?",
+        "options": [
+          "Parce qu'il fonctionne même si le câble réseau physique est débranché",
+          "Parce qu'il ne nécessite aucune adresse IP pour acheminer les requêtes",
+          "Parce qu'il compresse les vidéos pour quadrupler la vitesse d'affichage",
+          "Parce qu'il garantit la confidentialité et l'intégrité des données grâce au chiffrement TLS/SSL"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "37. Quel protocole de contrôle réseau est exploité par la commande ping pour vérifier l'accessibilité d'un hôte ?",
+        "options": [
+          "SNMP (Simple Network Management Protocol)",
+          "SMTP (Simple Mail Transfer Protocol)",
+          "IGMP (Internet Group Management Protocol)",
+          "ICMP (Internet Control Message Protocol)"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "38. Lors de la configuration d'une étendue (pool) DHCP, quelle est l'utilité d'une plage d'exclusion ?",
+        "options": [
+          "Préserver certaines adresses IP fixes pour les serveurs et imprimantes afin d'éviter les doublons",
+          "Interdire aux ordinateurs portables personnels de se connecter au Wi-Fi de l'école",
+          "Bannir temporairement les étudiants qui tentent de contourner le pare-feu",
+          "Accélérer le temps de réponse du commutateur de distribution"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "39. Quel protocole réseau sécurisé (port TCP 22) permet d'administrer un serveur ou un équipement réseau via une session chiffrée ?",
+        "options": [
+          "Telnet",
+          "FTP (File Transfer Protocol)",
+          "SSH (Secure Shell)",
+          "TFTP (Trivial File Transfer Protocol)"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "40. Que désigne la notion de « durée de bail » (lease time) fournie par un serveur DHCP à un poste client ?",
+        "options": [
+          "La durée de garantie matérielle constructeur de la carte réseau",
+          "Le délai maximal toléré par une commande ping avant d'afficher un dépassement de délai",
+          "La durée pendant laquelle le client est autorisé à conserver et utiliser l'adresse IP qui lui a été attribuée",
+          "Le temps nécessaire pour qu'un commutateur construise sa table de commutation"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "41. Sous Windows, quelle commande saisie dans l'invite de commande (cmd) affiche la configuration IP complète de tes cartes réseau ?",
+        "options": [
+          "ipconfig /all",
+          "ifconfig -a",
+          "ping localhost",
+          "show ip interface"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "42. Lorsque tu lances une commande ping vers une passerelle et reçois « Délai d'attente de la demande dépassé », quelle en est la signification ?",
+        "options": [
+          "L'adresse IP demandée a été transformée en adresse de multidiffusion",
+          "Le disque dur du poste local est saturé et refuse l'envoi de trames",
+          "Le paquet ICMP a été émis mais aucune réponse n'est revenue dans le temps imparti",
+          "La carte réseau a été automatiquement désactivée par le système d'exploitation"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "43. Si deux postes de travail reçoivent manuellement la même adresse IP 192.168.1.50 sur le même réseau local, que se produit-il ?",
+        "options": [
+          "Un conflit d'adresses IP se déclenche, provoquant des anomalies de communication et des déconnexions sur les deux postes",
+          "Les deux ordinateurs fusionnent leur bande passante pour doubler la vitesse de téléchargement",
+          "Le commutateur attribue automatiquement un nouveau processeur virtuel à chaque PC",
+          "Le réseau continue de fonctionner sans aucun impact car le masque résout le doublon"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "44. Quelle commande réseau permet d'identifier la liste de tous les routeurs intermédiaires (sauts) franchis pour joindre un serveur distant ?",
+        "options": [
+          "tracert (sous Windows) ou traceroute (sous Linux)",
+          "nslookup",
+          "netstat -an",
+          "hostname"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "45. Tu arrives à joindre l'adresse IP publique 1.1.1.1 par ping, mais ton navigateur refuse d'ouvrir le site wikipedia.org. Quelle est la cause probable ?",
+        "options": [
+          "Ta carte réseau ne supporte pas le protocole de routage IPv4",
+          "Une défaillance ou une mauvaise configuration du serveur DNS renseigné sur ton poste",
+          "Le câble RJ45 reliant ton poste au switch est coupé",
+          "Le serveur DHCP refuse de libérer ton adresse MAC"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "46. Lors de la mise en service d'un nouveau commutateur ou routeur d'administration, quelle précaution de sécurité essentielle dois-tu appliquer en premier ?",
+        "options": [
+          "Laisser le mot de passe vide pour faciliter les interventions des techniciens",
+          "Changer immédiatement les identifiants et mots de passe par défaut du constructeur",
+          "Désactiver toutes les règles de pare-feu pour améliorer la vitesse de transfert",
+          "Supprimer la mémoire flash de l'appareil"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "47. Pourquoi l'utilisation du protocole Telnet (port 23) pour administrer un commutateur est-elle fortement déconseillée en cybersécurité ?",
+        "options": [
+          "Parce que Telnet provoque une surchauffe immédiate des composants électroniques",
+          "Parce que les mots de passe et commandes transitent en texte clair et peuvent être facilement interceptés par un sniffeur de paquets",
+          "Parce que Telnet ne peut fonctionner que sur des liaisons de fibre optique",
+          "Parce que le protocole Telnet est limité à une seule commande par minute"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "48. Quelle commande console te permet de consulter la table de correspondance IP/MAC actuellement mémorisée dans le cache de ta machine ?",
+        "options": [
+          "arp -a",
+          "ipconfig /flushdns",
+          "getmac /s",
+          "route print"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "49. Pourquoi une école sépare-t-elle le réseau informatique des élèves et celui du secrétariat/direction en deux VLANs distincts ?",
+        "options": [
+          "Pour garantir la confidentialité des données administratives et empêcher les élèves d'intercepter ou d'accéder aux serveurs sensibles",
+          "Pour interdire l'accès à la calculatrice sur les postes d'élèves",
+          "Pour obliger les élèves à utiliser uniquement des claviers azerty belges",
+          "Pour réduire la facture d'électricité liée au fonctionnement des commutateurs"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "50. Ton poste a pour adresse IP 192.168.1.20 avec le masque 255.255.255.0. Sa passerelle par défaut est configurée à 192.168.2.254. Que constates-tu lors d'une tentative de navigation sur le web ?",
+        "options": [
+          "Le navigateur bascule automatiquement en mode hors connexion sécurisé",
+          "Tout fonctionne car le commutateur route automatiquement entre les deux adresses sans configuration",
+          "La vitesse de connexion est simplement limitée à 100 kbit/s",
+          "L'accès Internet échoue car la passerelle par défaut n'est pas joignable directement dans le même sous-réseau que le poste"
+        ],
+        "correct": 3
+      }
+    ],
+    "results": {
+      "excellent": "Félicitations ! Tu maîtrises les concepts de réseau local, les protocoles et le diagnostic sur le bout des doigts (Niveau Expert).",
+      "good": "Très bon résultat ! Les bases fondamentales et la plupart des mécanismes réseau sont bien assimilés.",
+      "average": "Résultat moyen. Tu as des notions, mais revois l'adressage IP, le calcul des masques et le modèle OSI pour consolider tes acquis.",
+      "bad": "Attention, plusieurs notions essentielles (modèles, adressage, équipements et diagnostic) doivent être retravaillées avec ton cours."
+    },
+    "intro": {
+      "line1": "Ce questionnaire d'évaluation approfondie comporte 50 questions couvrant l'ensemble de l'UAA 15 (Réseau - 6e TT).",
+      "line2": "Prends le temps de bien lire chaque énoncé et scénario technique avant de sélectionner ta réponse."
+    }
+  }
+}
