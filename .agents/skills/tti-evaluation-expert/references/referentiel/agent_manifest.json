@@ -1,0 +1,664 @@
+{
+  "curriculum_name": "CPEONS D2_D3 TT INFORMATIQUE",
+  "description": "Programme de l'option technique de transition en Informatique (2e et 3e degrés) - CPEONS Fédération Wallonie-Bruxelles.",
+  "source_pdf": "CPEONS D2_D3 TT INFORMATIQUE.pdf",
+  "total_units": 16,
+  "sections": [
+    {
+      "key": "01_cadre_general_et_profil",
+      "title": "Cadre général, profil de formation et thématiques",
+      "type": "cadre",
+      "file": "01_cadre_general_et_profil.md",
+      "metadata": {
+        "id": "cadre_general",
+        "title": "Cadre général et profil de formation D2-D3 TT Informatique",
+        "type": "cadre",
+        "tags": [
+          "référentiel",
+          "profil de formation",
+          "objectifs pédagogiques",
+          "cpeons"
+        ],
+        "summary": "Présentation institutionnelle, fondements décrétaux, profil de formation et articulation des thématiques en informatique."
+      }
+    },
+    {
+      "key": "02_grilles_horaires",
+      "title": "Grilles horaires de la formation",
+      "type": "grille_horaire",
+      "file": "02_grilles_horaires.md",
+      "metadata": {
+        "id": "grilles_horaires",
+        "title": "Grilles horaires D2 - D3 TT Informatique",
+        "type": "horaires",
+        "tags": [
+          "grilles horaires",
+          "périodes",
+          "volume horaire",
+          "cpeons"
+        ],
+        "summary": "Répartition hebdomadaire et annuelle des périodes de cours pour les 3e, 4e, 5e et 6e années."
+      }
+    },
+    {
+      "key": "uaa_00",
+      "title": "UAA 0 : Numérique",
+      "type": "uaa",
+      "file": "uaa/uaa_00_numerique.md",
+      "metadata": {
+        "id": "uaa_00",
+        "number": 0,
+        "title": "Numérique",
+        "degree": "D2",
+        "year": "3e année",
+        "periods": "45 à 50",
+        "theme": "Numérique / Tronc commun",
+        "prerequisites": [],
+        "leads_to": [
+          "UAA 1",
+          "UAA 2",
+          "UAA 3",
+          "UAA 4",
+          "UAA 7",
+          "UAA 8"
+        ],
+        "tags": [
+          "numérique",
+          "système informatique",
+          "bureautique",
+          "fichiers",
+          "sécurité élémentaire"
+        ],
+        "summary": "Acquisition des prérequis numériques fondamentaux du tronc commun nécessaires pour aborder les UAA techniques."
+      }
+    },
+    {
+      "key": "uaa_01",
+      "title": "UAA 1 : Hardware et Périphériques",
+      "type": "uaa",
+      "file": "uaa/uaa_01_hardware_et_peripheriques.md",
+      "metadata": {
+        "id": "uaa_01",
+        "number": 1,
+        "title": "Hardware et Périphériques",
+        "degree": "D2",
+        "year": "3e année",
+        "periods": "25 à 30",
+        "theme": "Hardware",
+        "prerequisites": [
+          "UAA 0"
+        ],
+        "leads_to": [
+          "UAA 10"
+        ],
+        "tags": [
+          "hardware",
+          "périphériques",
+          "composants internes",
+          "connectique",
+          "caractéristiques techniques"
+        ],
+        "summary": "Découverte des composants matériels d'un ordinateur, des périphériques d'entrée/sortie et de leurs caractéristiques techniques."
+      }
+    },
+    {
+      "key": "situation_01",
+      "title": "Exemple de Situation d'Apprentissage 1 : Assemblage d'un système informatique et périphériques (3e)",
+      "type": "situation_apprentissage",
+      "file": "situations_apprentissage/situation_01_assemblage_dun_systeme_informatique_et_p.md",
+      "metadata": {
+        "id": "situation_01",
+        "title": "Assemblage d'un système informatique et périphériques (3e)",
+        "type": "situation_apprentissage",
+        "index": 1,
+        "tags": [
+          "situation d'apprentissage",
+          "projet pratique",
+          "pédagogie active",
+          "évaluation"
+        ],
+        "summary": "Mise en situation concrète et exemple guidé d'apprentissage pratique pour illustrer les compétences."
+      }
+    },
+    {
+      "key": "uaa_02",
+      "title": "UAA 2 : Programmation séquentielle",
+      "type": "uaa",
+      "file": "uaa/uaa_02_programmation_sequentielle.md",
+      "metadata": {
+        "id": "uaa_02",
+        "number": 2,
+        "title": "Programmation séquentielle",
+        "degree": "D2",
+        "year": "3e année",
+        "periods": "35 à 40",
+        "theme": "Programmation",
+        "prerequisites": [],
+        "leads_to": [
+          "UAA 4",
+          "UAA 5"
+        ],
+        "tags": [
+          "programmation",
+          "algorithmique",
+          "séquence",
+          "organigramme",
+          "logigramme",
+          "variables"
+        ],
+        "summary": "Introduction à l'algorithmique et à la programmation séquentielle avec structures répétitives de base."
+      }
+    },
+    {
+      "key": "uaa_03",
+      "title": "UAA 3 : Création d'un site Web",
+      "type": "uaa",
+      "file": "uaa/uaa_03_creation_dun_site_web.md",
+      "metadata": {
+        "id": "uaa_03",
+        "number": 3,
+        "title": "Création d'un site Web",
+        "degree": "D2",
+        "year": "3e année",
+        "periods": "55 à 60",
+        "theme": "Technologie Web",
+        "prerequisites": [
+          "UAA 0"
+        ],
+        "leads_to": [
+          "UAA 4",
+          "UAA 6"
+        ],
+        "tags": [
+          "web",
+          "html",
+          "css",
+          "liens relatifs",
+          "structure dom",
+          "mise en forme"
+        ],
+        "summary": "Construction d'un site web statique multi-pages avec respect de la structure sémantique HTML et de l'habillage CSS."
+      }
+    },
+    {
+      "key": "uaa_04",
+      "title": "UAA 4 : Projet collaboratif",
+      "type": "uaa",
+      "file": "uaa/uaa_04_projet_collaboratif.md",
+      "metadata": {
+        "id": "uaa_04",
+        "number": 4,
+        "title": "Projet collaboratif",
+        "degree": "D2",
+        "year": "4e année",
+        "periods": "20",
+        "theme": "Dimension projet",
+        "prerequisites": [
+          "UAA 0",
+          "UAA 2",
+          "UAA 3"
+        ],
+        "leads_to": [
+          "UAA 9"
+        ],
+        "tags": [
+          "projet",
+          "travail collaboratif",
+          "cahier des charges",
+          "planification",
+          "suivi de projet"
+        ],
+        "summary": "Conduite d'un projet informatique collaboratif en équipe sur la base d'un cahier des charges fourni."
+      }
+    },
+    {
+      "key": "uaa_05",
+      "title": "UAA 5 : Programmation impérative",
+      "type": "uaa",
+      "file": "uaa/uaa_05_programmation_imperative.md",
+      "metadata": {
+        "id": "uaa_05",
+        "number": 5,
+        "title": "Programmation impérative",
+        "degree": "D2",
+        "year": "4e année",
+        "periods": "55 à 60",
+        "theme": "Programmation",
+        "prerequisites": [
+          "UAA 2"
+        ],
+        "leads_to": [
+          "UAA 9",
+          "UAA 11",
+          "UAA 12"
+        ],
+        "tags": [
+          "programmation",
+          "structures alternatives",
+          "boucles",
+          "entrées-sorties",
+          "types de données"
+        ],
+        "summary": "Approfondissement du contrôle de flux impératif, structures conditionnelles, boucles imbriquées et validation des saisies."
+      }
+    },
+    {
+      "key": "uaa_06",
+      "title": "UAA 6 : Création et mise en ligne d'un site Web",
+      "type": "uaa",
+      "file": "uaa/uaa_06_creation_et_mise_en_ligne_dun_site_web.md",
+      "metadata": {
+        "id": "uaa_06",
+        "number": 6,
+        "title": "Création et mise en ligne d'un site Web",
+        "degree": "D2",
+        "year": "4e année",
+        "periods": "30 à 35",
+        "theme": "Technologie Web",
+        "prerequisites": [
+          "UAA 3"
+        ],
+        "leads_to": [
+          "UAA 9",
+          "UAA 12"
+        ],
+        "tags": [
+          "web",
+          "html5",
+          "css3",
+          "mise en ligne",
+          "hébergement",
+          "ergonomie",
+          "responsive"
+        ],
+        "summary": "Perfectionnement du design web, de l'ergonomie, du responsive design et des procédures de mise en ligne."
+      }
+    },
+    {
+      "key": "situation_02",
+      "title": "Exemple de Situation d'Apprentissage 2 : Création et mise en ligne d'un site web vitrine (4e)",
+      "type": "situation_apprentissage",
+      "file": "situations_apprentissage/situation_02_creation_et_mise_en_ligne_dun_site_web_v.md",
+      "metadata": {
+        "id": "situation_02",
+        "title": "Création et mise en ligne d'un site web vitrine (4e)",
+        "type": "situation_apprentissage",
+        "index": 2,
+        "tags": [
+          "situation d'apprentissage",
+          "projet pratique",
+          "pédagogie active",
+          "évaluation"
+        ],
+        "summary": "Mise en situation concrète et exemple guidé d'apprentissage pratique pour illustrer les compétences."
+      }
+    },
+    {
+      "key": "uaa_07",
+      "title": "UAA 7 : Base de données relationnelle",
+      "type": "uaa",
+      "file": "uaa/uaa_07_base_de_donnees_relationnelle.md",
+      "metadata": {
+        "id": "uaa_07",
+        "number": 7,
+        "title": "Base de données relationnelle",
+        "degree": "D2",
+        "year": "4e année",
+        "periods": "35 à 40",
+        "theme": "Base de données",
+        "prerequisites": [
+          "UAA 0"
+        ],
+        "leads_to": [
+          "UAA 12"
+        ],
+        "tags": [
+          "base de données",
+          "sgbd",
+          "sql",
+          "modèle relationnel",
+          "tables",
+          "clés primaires",
+          "requêtes"
+        ],
+        "summary": "Modélisation relationnelle, création de tables, liaisons et formulation de requêtes SQL d'interrogation et de mise à jour."
+      }
+    },
+    {
+      "key": "uaa_08",
+      "title": "UAA 8 : Sécurité des données",
+      "type": "uaa",
+      "file": "uaa/uaa_08_securite_des_donnees.md",
+      "metadata": {
+        "id": "uaa_08",
+        "number": 8,
+        "title": "Sécurité des données",
+        "degree": "D2",
+        "year": "4e année",
+        "periods": "20 à 25",
+        "theme": "Sécurité",
+        "prerequisites": [
+          "UAA 0"
+        ],
+        "leads_to": [
+          "UAA 12",
+          "UAA 15"
+        ],
+        "tags": [
+          "sécurité",
+          "sauvegardes",
+          "droits d'accès",
+          "intégrité des données",
+          "authentification"
+        ],
+        "summary": "Protection des données, stratégies de sauvegarde, gestion des droits et sensibilisation aux risques cyber."
+      }
+    },
+    {
+      "key": "uaa_09",
+      "title": "UAA 9 : Projet et cahier des charges",
+      "type": "uaa",
+      "file": "uaa/uaa_09_projet_et_cahier_des_charges.md",
+      "metadata": {
+        "id": "uaa_09",
+        "number": 9,
+        "title": "Projet et cahier des charges",
+        "degree": "D3",
+        "year": "5e année",
+        "periods": "25 à 30",
+        "theme": "Dimension projet",
+        "prerequisites": [
+          "UAA 4",
+          "UAA 5",
+          "UAA 6"
+        ],
+        "leads_to": [
+          "UAA 13"
+        ],
+        "tags": [
+          "projet",
+          "gestion de projet",
+          "cahier des charges",
+          "autonomie",
+          "développement"
+        ],
+        "summary": "Réalisation d'un projet individuel ou collectif sur la base d'un cahier des charges intégrant programmation et web."
+      }
+    },
+    {
+      "key": "uaa_10",
+      "title": "UAA 10 : Hardware et architecture",
+      "type": "uaa",
+      "file": "uaa/uaa_10_hardware_et_architecture.md",
+      "metadata": {
+        "id": "uaa_10",
+        "number": 10,
+        "title": "Hardware et architecture",
+        "degree": "D3",
+        "year": "5e année",
+        "periods": "15 à 20",
+        "theme": "Hardware",
+        "prerequisites": [
+          "UAA 1"
+        ],
+        "leads_to": [
+          "UAA 13"
+        ],
+        "tags": [
+          "hardware",
+          "architecture",
+          "cpu",
+          "mémoire",
+          "bus",
+          "configuration système"
+        ],
+        "summary": "Étude avancée de l'architecture interne des ordinateurs, adéquation matériel/logiciel et dimensionnement système."
+      }
+    },
+    {
+      "key": "uaa_11",
+      "title": "UAA 11 : Programmation procédurale",
+      "type": "uaa",
+      "file": "uaa/uaa_11_programmation_procedurale.md",
+      "metadata": {
+        "id": "uaa_11",
+        "number": 11,
+        "title": "Programmation procédurale",
+        "degree": "D3",
+        "year": "5e année",
+        "periods": "65 à 70",
+        "theme": "Programmation",
+        "prerequisites": [
+          "UAA 5"
+        ],
+        "leads_to": [
+          "UAA 13",
+          "UAA 14"
+        ],
+        "tags": [
+          "programmation",
+          "fonctions",
+          "procédures",
+          "tableaux 2d",
+          "modularité",
+          "paramètres"
+        ],
+        "summary": "Décomposition modulaire via fonctions et procédures, passage d'arguments par valeur/référence et structures de données."
+      }
+    },
+    {
+      "key": "situation_03",
+      "title": "Exemple de Situation d'Apprentissage 3 : Application modulaire procédurale de gestion (5e)",
+      "type": "situation_apprentissage",
+      "file": "situations_apprentissage/situation_03_application_modulaire_procedurale_de_ges.md",
+      "metadata": {
+        "id": "situation_03",
+        "title": "Application modulaire procédurale de gestion (5e)",
+        "type": "situation_apprentissage",
+        "index": 3,
+        "tags": [
+          "situation d'apprentissage",
+          "projet pratique",
+          "pédagogie active",
+          "évaluation"
+        ],
+        "summary": "Mise en situation concrète et exemple guidé d'apprentissage pratique pour illustrer les compétences."
+      }
+    },
+    {
+      "key": "uaa_12",
+      "title": "UAA 12 : Développement d'un site Web dynamique",
+      "type": "uaa",
+      "file": "uaa/uaa_12_developpement_dun_site_web_dynamique.md",
+      "metadata": {
+        "id": "uaa_12",
+        "number": 12,
+        "title": "Développement d'un site Web dynamique",
+        "degree": "D3",
+        "year": "5e année",
+        "periods": "55 à 60",
+        "theme": "Technologie Web",
+        "prerequisites": [
+          "UAA 5",
+          "UAA 6",
+          "UAA 7"
+        ],
+        "leads_to": [
+          "UAA 13"
+        ],
+        "tags": [
+          "web dynamique",
+          "formulaires",
+          "php",
+          "backend",
+          "connexion bdd",
+          "cybersécurité web"
+        ],
+        "summary": "Développement d'applications web dynamiques côté serveur avec interactions base de données et sécurisation des entrées."
+      }
+    },
+    {
+      "key": "uaa_13",
+      "title": "UAA 13 : Conception et gestion de projet",
+      "type": "uaa",
+      "file": "uaa/uaa_13_conception_et_gestion_de_projet.md",
+      "metadata": {
+        "id": "uaa_13",
+        "number": 13,
+        "title": "Conception et gestion de projet",
+        "degree": "D3",
+        "year": "6e année",
+        "periods": "60 à 65",
+        "theme": "Dimension projet",
+        "prerequisites": [
+          "UAA 9",
+          "UAA 10",
+          "UAA 11",
+          "UAA 12"
+        ],
+        "leads_to": [],
+        "tags": [
+          "projet individuel",
+          "conception",
+          "cahier des charges autonome",
+          "soutenance",
+          "documentation"
+        ],
+        "summary": "Conception autonome du cahier des charges et développement complet d'un projet informatique terminal."
+      }
+    },
+    {
+      "key": "uaa_14",
+      "title": "UAA 14 : Programmation orientée objet",
+      "type": "uaa",
+      "file": "uaa/uaa_14_programmation_orientee_objet.md",
+      "metadata": {
+        "id": "uaa_14",
+        "number": 14,
+        "title": "Programmation orientée objet",
+        "degree": "D3",
+        "year": "6e année",
+        "periods": "65 à 70",
+        "theme": "Programmation",
+        "prerequisites": [
+          "UAA 11"
+        ],
+        "leads_to": [],
+        "tags": [
+          "poo",
+          "classes",
+          "objets",
+          "encapsulation",
+          "héritage",
+          "polymorphisme",
+          "méthodes"
+        ],
+        "summary": "Paradigme orienté objet: modélisation de classes, instanciation d'objets, héritage, encapsulation et modularité."
+      }
+    },
+    {
+      "key": "uaa_15",
+      "title": "UAA 15 : Réseau",
+      "type": "uaa",
+      "file": "uaa/uaa_15_reseau.md",
+      "metadata": {
+        "id": "uaa_15",
+        "number": 15,
+        "title": "Réseau",
+        "degree": "D3",
+        "year": "6e année",
+        "periods": "40 à 45",
+        "theme": "Réseau",
+        "prerequisites": [
+          "UAA 0",
+          "UAA 1"
+        ],
+        "leads_to": [],
+        "tags": [
+          "réseau",
+          "tcp/ip",
+          "masque sous-réseau",
+          "adressage ip",
+          "switch",
+          "routeur",
+          "sécurité réseau"
+        ],
+        "summary": "Concepts fondamentaux des réseaux informatiques, modèle OSI/TCP-IP, configuration matérielle et sécurité des flux."
+      }
+    },
+    {
+      "key": "situation_04",
+      "title": "Exemple de Situation d'Apprentissage 4 : Mise en œuvre et sécurisation d'un réseau local (6e)",
+      "type": "situation_apprentissage",
+      "file": "situations_apprentissage/situation_04_mise_en_œuvre_et_securisation_dun_reseau.md",
+      "metadata": {
+        "id": "situation_04",
+        "title": "Mise en œuvre et sécurisation d'un réseau local (6e)",
+        "type": "situation_apprentissage",
+        "index": 4,
+        "tags": [
+          "situation d'apprentissage",
+          "projet pratique",
+          "pédagogie active",
+          "évaluation"
+        ],
+        "summary": "Mise en situation concrète et exemple guidé d'apprentissage pratique pour illustrer les compétences."
+      }
+    },
+    {
+      "key": "03_considerations_pedagogiques",
+      "title": "Considérations pédagogiques, méthodologie et évaluation",
+      "type": "pedagogie",
+      "file": "03_considerations_pedagogiques_et_evaluation.md",
+      "metadata": {
+        "id": "pedagogie_evaluation",
+        "title": "Considérations pédagogiques et modalités d'évaluation",
+        "type": "pedagogie",
+        "tags": [
+          "méthodologie",
+          "évaluation",
+          "remédiation",
+          "posture enseignante",
+          "travail collaboratif"
+        ],
+        "summary": "Recommandations méthodologiques, posture de l'enseignant, travail d'équipe et critères d'évaluation formative/sommative."
+      }
+    },
+    {
+      "key": "04_glossaire_informatique",
+      "title": "Glossaire informatique",
+      "type": "glossaire",
+      "file": "04_glossaire_informatique.md",
+      "metadata": {
+        "id": "glossaire_informatique",
+        "title": "Glossaire des termes techniques et acronymes",
+        "type": "glossaire",
+        "tags": [
+          "glossaire",
+          "définitions",
+          "terminologie",
+          "acronymes"
+        ],
+        "summary": "Définitions des concepts clés et vocabulaire informatique officiel employé dans le référentiel."
+      }
+    },
+    {
+      "key": "05_bibliographie_et_annexes",
+      "title": "Bibliographie, sitographie et annexes",
+      "type": "annexes",
+      "file": "05_bibliographie_et_annexes.md",
+      "metadata": {
+        "id": "bibliographie_annexes",
+        "title": "Bibliographie, sitographie et documents annexes",
+        "type": "annexes",
+        "tags": [
+          "bibliographie",
+          "sitographie",
+          "ressources",
+          "annexes"
+        ],
+        "summary": "Ouvrages de référence, liens officiels et documents complémentaires."
+      }
+    }
+  ]
+}

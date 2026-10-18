@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MCB Quiz Schema",
+  "type": "object",
+  "required": ["title", "quiz"],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "quiz": {
+      "type": "object",
+      "required": ["questions", "results", "intro"],
+      "properties": {
+        "questions": {
+          "type": "array",
+          "minItems": 10,
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "required": ["question", "options", "correct"],
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "minItems": 4,
+                "maxItems": 4,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "correct": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              }
+            }
+          }
+        },
+        "results": {
+          "type": "object",
+          "required": ["excellent", "good", "average", "bad"],
+          "properties": {
+            "excellent": { "type": "string" },
+            "good": { "type": "string" },
+            "average": { "type": "string" },
+            "bad": { "type": "string" }
+          }
+        },
+        "intro": {
+          "type": "object",
+          "required": ["line1", "line2"],
+          "properties": {
+            "line1": { "type": "string" },
+            "line2": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}
