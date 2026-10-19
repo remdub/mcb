@@ -1,0 +1,117 @@
+{
+  "title": "QCM UAA 3 : Conversion de bases numériques (Binaire, Hexadécimal, Décimal)",
+  "quiz": {
+    "questions": [
+      {
+        "question": "1. Si tu convertis le nombre binaire 1010 en base décimale, quelle valeur obtiens-tu ?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "2. Tu dois écrire le nombre décimal 45 en binaire. Quel est le résultat correct ?",
+        "options": [
+          "110101",
+          "100111",
+          "101011",
+          "101101"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "3. Quelle est la valeur en base décimale du nombre hexadécimal 1F ?",
+        "options": [
+          "15",
+          "25",
+          "31",
+          "47"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "4. En CSS, une composante de couleur maximale vaut 255 en décimal. Comment l'écris-tu en hexadécimal ?",
+        "options": [
+          "FF",
+          "FE",
+          "EF",
+          "A0"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "5. Pour convertir le nombre binaire 11011010 en hexadécimal, tu le découpes en quartets (1101 et 1010). Quelle valeur obtiens-tu ?",
+        "options": [
+          "DA",
+          "CB",
+          "B6",
+          "D2"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "6. Tu veux convertir le nombre hexadécimal 7B en binaire. Quel est son équivalent sur 8 bits ?",
+        "options": [
+          "01101011",
+          "01111011",
+          "01111101",
+          "11101011"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "7. Tu dois convertir le nombre décimal 188 en base hexadécimale. Quel résultat obtiens-tu ?",
+        "options": [
+          "AC",
+          "BA",
+          "CB",
+          "BC"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "8. Quelle est la valeur décimale de l'octet binaire 10000001 ?",
+        "options": [
+          "129",
+          "128",
+          "65",
+          "257"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "9. Dans le système hexadécimal (base 16), à quel chiffre décimal correspond la lettre 'E' ?",
+        "options": [
+          "12",
+          "14",
+          "13",
+          "15"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "10. Pour convertir un nombre binaire en hexadécimal directement, combien de bits dois-tu regrouper pour former un chiffre hexadécimal ?",
+        "options": [
+          "2 bits",
+          "8 bits",
+          "4 bits",
+          "3 bits"
+        ],
+        "correct": 2
+      }
+    ],
+    "results": {
+      "excellent": "Excellent ! Tu maîtrises parfaitement la conversion entre les bases binaire, décimale et hexadécimale.",
+      "good": "Très bien ! Les méthodes de conversion sont comprises, attention aux erreurs d'inattention dans les calculs.",
+      "average": "Résultat moyen. Entraîne-toi à poser les puissances de 2 et les divisions successives par 16.",
+      "bad": "Des difficultés identifiées. Revois le tableau de correspondance binaire/hexadécimal et le principe de numération de position."
+    },
+    "intro": {
+      "line1": "Ce questionnaire comporte 10 questions sur les conversions de bases (binaire, hexadécimale, décimale).",
+      "line2": "Munis-toi d'un brouillon, calcule la réponse et clique sur la bonne option pour avancer."
+    }
+  }
+}
